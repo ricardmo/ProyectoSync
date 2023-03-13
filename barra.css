@@ -1,0 +1,49 @@
+nav{
+    background-color: aqua;
+    display: flex;
+    
+
+}
+
+.leftnav{
+    display: flex;
+    justify-content: left;
+    width: 65%;
+    background-color: yellow;
+    align-items: center;    
+    padding-left: 50px;
+}
+
+
+
+
+
+
+
+
+.rightnav{
+    width:35%;
+    display: flex;
+    justify-content: right;
+    background-color: pink;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    padding-right: 50px;
+
+}
+.logo {
+    width: 30%;
+    margin-left: 10%;
+}
+.screens{
+    color: red;
+}
+.download{
+    background-color: white;
+    border-radius: 40px;
+    border-color: red;
+    color: red;
+    font-weight: bold;
+    padding: 5 22px;
+}
