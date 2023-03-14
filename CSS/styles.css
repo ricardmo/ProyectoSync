@@ -10,6 +10,113 @@
 
 
 /*------------PARTE 1------------------*/
+.main-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #F7FAFD;
+    width: 100%;
+    height: 90vh;
+}
+
+.maintitle{
+    background-color: #F7FAFD;
+    flex-direction: column;
+    width: 50% ;
+    margin: 0 auto ;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.maintitle h1 {
+    font-size: 50px;
+}
+.maintitle p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.mobileicon{
+    font-size: x-large;
+
+    
+}
+
+.buttons{
+    display: flex;
+    margin: 0 auto;
+    width: 40%;
+    margin-bottom: 10px;
+    
+}
+
+
+.button-background{
+    background-color: red;
+    border-radius: 40px;
+    border-color: red;
+    color: red;
+    font-weight: bold;
+    padding: 5 22px;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.button-background a {
+    color: white;
+    display: flex;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 4px;
+    text-decoration: none;
+        
+}
+
+
+.phoneimg{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    padding-top: 50px;
+}
+
+.phone{
+    max-width: 1080px;
+
+}
+
+
+
+.title-icons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    
+    
+}
+.iconsgroup{
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 0 5px;
+    justify-content: center;
+    margin: 50px;
+}
+.iconsgroup p {
+font-weight: bold;
+}
+
+.icons{
+    padding: 20px;
+    border: 2px solid #EBE7FA;
+    border-radius: 100px;
+    background-color: #EBE7FA;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;    
+}
 
 
 /*------------PARTE 2------------------*/
@@ -34,6 +141,7 @@
     display: flex;
     margin: 0% auto;
     align-items: center;
+    
 } 
 
 .substats{
@@ -101,6 +209,10 @@
 /*-----------MEDIA QUERIES TABLET--------*/
 
 @media screen and (max-width:768px) {
+    .title-icons {
+        display: flex;
+        flex-direction: column;
+    }
     .testimonials{
         font-size: 250%;
     }
@@ -122,7 +234,6 @@
     .users{
         height: 240vh;
     }
-
 
 
     .estadisticas{
