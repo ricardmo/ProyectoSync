@@ -1,0 +1,149 @@
+/*------------GENERAL------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+
+/*------------PARTE 1------------------*/
+
+
+/*------------PARTE 2------------------*/
+
+
+/*------------PARTE 3------------------*/
+
+.users{
+    background-color: #F7FAFD;
+    height: 120vh;
+    width: 100%;
+
+}
+
+.testimonials{
+    color: #333333;
+}
+
+.estadisticas{
+    background-color: #E8EFF6;
+    height: 30vh;
+    display: flex;
+    margin: 0% auto;
+    align-items: center;
+} 
+
+.substats{
+    text-align: center;
+    height: 60%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    text-align: center;
+    padding: 2%;
+}
+
+.customers{
+    background-color: white;
+    height: 15%;
+    margin: 4% auto;
+    padding: 4%;
+    width: 84%;
+    text-align: center;
+}
+
+.logo {
+    margin: 2%;
+}
+
+.testimonials{
+    font-size: 300%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 2%;
+}
+
+.cursiva {
+    font-style: italic;
+    font-size: 110%;
+    line-height: 160%;
+    color: #7a7a7a;
+    margin-bottom: 2%;
+}
+
+.ratings hr{
+    width: 20%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.negrita {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333333;
+}
+
+/*-----------------MEDIA QUERIES------------------*/
+
+
+
+
+/*-----------MEDIA QUERIES TABLET--------*/
+
+@media screen and (max-width:768px) {
+    .testimonials{
+        font-size: 250%;
+    }
+    .ratings{
+
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+
+    .ratings{
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .customers{
+        height: 6%;
+    }
+
+    .users{
+        height: 240vh;
+    }
+
+
+
+    .estadisticas{
+
+        display: flex;
+        flex-direction: wrap;
+
+    }
+
+}
+
+
+
+/*-----------MEDIA QUERIES MOBIL--------*/
+@media  screen and (max-width:425px) {
+    .users {
+        height: 200vh;
+    }
+
+    .estadisticas{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+}
+
