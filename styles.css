@@ -21,7 +21,6 @@
     background-color: #F7FAFD;
     height: 120vh;
     width: 100%;
-
 }
 
 .testimonials{
@@ -46,9 +45,6 @@
     display: flex;
     justify-content: space-between;
     width: 92%;
-}
-
-.ratings{
     text-align: center;
     padding: 2%;
 }
